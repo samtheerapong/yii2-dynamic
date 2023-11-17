@@ -47,7 +47,7 @@ use wbraganca\dynamicform\DynamicFormWidget;
                         <div class="card-header bg-secondary mb-3">
                             <div class="card-title float-left">
                                 <div class="float-left">
-                                รายการ
+                                    รายการ
                                 </div>
                             </div>
                             <div class="float-right">
@@ -78,8 +78,6 @@ use wbraganca\dynamicform\DynamicFormWidget;
             <?php DynamicFormWidget::end(); ?>
         </div>
     </div>
-
-
 
     <div class="form-group">
         <?= Html::submitButton(Yii::t('app', 'Save'), ['class' => 'btn btn-success']) ?>

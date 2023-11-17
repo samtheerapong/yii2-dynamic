@@ -33,7 +33,6 @@
         "hoaaah/yii2-startbootstrap-sb-admin-2-asset": "*",
         "hail812/yii2-adminlte3": "~1.1",
         "wbraganca/yii2-dynamicform": "*"
-
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

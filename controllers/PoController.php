@@ -122,11 +122,9 @@ class PoController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
-        // $modelsPoItem = $modelCustomer->addresses;
         $modelsPoItem = $model->poItems;
 
-        // $modelsPdata = $model->pdatas;
-
+        
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             $oldIDs = ArrayHelper::map($modelsPoItem, 'id', 'id');
             $modelsPoItem = Model::createMultiple(PoItem::classname(), $modelsPoItem);

@@ -2,7 +2,7 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=ex-dynamic',
+    'dsn' => 'mysql:host=localhost;dbname=app-ex',
     // 'dsn' => 'mysql:host=localhost;dbname=for_test',
     'username' => 'sam',
     'password' => 'sam',
